@@ -22,7 +22,7 @@ Pytorch 1.2.0
 
 ## Setup
 
-Please create the environment with the instruction. With the instruction shown as below can create the image.
+Please create the environment with the instruction. With the instruction shown as below you can create the image.
 
 ```sh
 sudo docker build -t gcn_env:latest docker-set-up/

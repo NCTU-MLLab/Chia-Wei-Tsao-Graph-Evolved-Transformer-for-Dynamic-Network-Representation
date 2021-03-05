@@ -20,6 +20,20 @@ Python 3.6.9
 
 Pytorch 1.2.0
 
+## Setup
+
+Please create the environment with the instruction. With the instruction shown as below can create the image.
+
+```sh
+sudo docker build -t gcn_env:latest docker-set-up/
+```
+
+Start the container
+
+```sh
+sudo docker run -ti  --gpus all -v $(pwd):/evolveGCN  gcn_env:latest
+```
+
 ## Training and Evaluation
 Set --config_file with a yaml configuration file to run the experiments. For example:
 
